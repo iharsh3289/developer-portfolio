@@ -57,7 +57,7 @@ function ContactWithCaptcha() {
     const options = { publicKey: process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY };
 
     const email = {
-      message: input.email,
+      message: input.message,
       from_name: input.name,
       from_email: input.email,
       to_name: 'Harsh Garg',
