@@ -5,7 +5,6 @@ module.exports = {
     includePaths: [path.join(__dirname, 'styles')],
   },
   images: {
-    loader: "akamai",
-    path: "/",
+    domains: ['localhost', '127.0.0.1', 'iharsh3289.github.io'],
   },
 }
